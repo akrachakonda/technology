@@ -1,0 +1,57 @@
+Datacap:
+-------------------
+Patch Number: Patch 1 SRS1.3 MANILA
+---------------------------
+
+Fix1:Remove customer lookup link @ Aprover step for Registration of Export LC Bills - Collection basis MNL
+
+Fix2:TAB actions are not in order(Import Collection Bills subtype , now Cursor is at Bill CCY , if we press TAB 			    button the next focus should be on 'Bill Amount' but the cursor got focused on Customer AC CCY (Charge)
+
+
+
+Case Manager:
+--------------
+
+Patch Number : Patch2_13-08-2015
+--------------------------------
+
+Fix1: Value Date Sorting, Filter criteria for CaseStatusChangeDateTime and Application Date in Work View and Case View.
+
+Fix2: Modified by value change in Documents tab in work view and Case View
+
+Fix3: Removing the display of domain name in Branch Maker ID and Branch Approver ID in both Case and work View.
+
+Fix4: Moving the Domain Dropdown under the password in login page.
+
+Fix5: Scripts for separate SNG_LTRDB.
+
+Fix6: Reports Related issues.
+
+
+Patch Number : Patch3_19-08-2015
+---------------------------------
+
+CR 7:  Interface “Branch Approved” status to TEMS for SMAR&TS case
+
+CR 8:  Remittance SSC + Branch Operation Report Further Enhancement
+
+CR 9:  Computing Value Date to Remittance SSC + Branch Operation Report
+
+Fix 1: Removing the Branch field display for branch approver and branch maker for SNG
+
+Fix 2: Customer look up related Issues.
+
+Fix 3: Change of Singapore domain value.
+
+SIT 1: There was no Comments popup when branch maker resubmitted to SSC.
+
+SIT 2: There is no case ID in Import LC Bills. Not shown in work view
+
+SIT 3: Generic cancellation, amendment, others not allow branch maker to cancel the case
+
+SIT 4: No popup upon clicking Help
+
+SIT 5: Import collection Bills. In CM, customer a/c no (charge) should have LTRDB validation in branch maker work view (case status = Branch Processing)
+
+SIT 6: when create a case - Change of bill amount or due date, compliance pass field is missing
+  
